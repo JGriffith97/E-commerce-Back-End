@@ -14,7 +14,6 @@ router.get('/', async (req, res) => {
   } catch (err) {
     res.status(500).json(err)
   }
-
 });
 
 // find a single tag by its `id`
@@ -34,7 +33,6 @@ router.get('/:id', async (req, res) => {
   } catch (err) {
     res.status(500).json(err)
   }
-
 });
 
 // create a new tag
